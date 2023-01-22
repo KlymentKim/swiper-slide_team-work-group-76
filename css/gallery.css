@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;  
+  }
+  
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 16px; 
+   
+  }
+
+  .swiper {
+    width: 200px;
+    height: 300px;
+  }
+
+  /* .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEE;
+  } */
+
+/* @media (max-width:1200px) {
+    .container{
+        max-width:970px;
+        padding: 0px 16px; 
+    }
+
+    .swiper {
+        width: 600px;
+        height: 300px;
+      }
+
+    
+}
+      */
+
+@media screen and (max-width:320px),
+(max-width:480px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+/* ******************************************* */
+    .advantages{
+        /* width: 100%; */
+        background-color: #84A178;
+        padding-top: 60px;
+        padding-bottom: 81px;
+    }
+    .text-examp{
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+        color: #FCFCFC;
+        margin-bottom: 32px;
+    }
+/* ****************************************** */
+
+    .section{
+        padding-bottom: 61px;
+      outline: 1px solid saddlebrown;
+
+    }
+    .swiper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 600px;
+        height: 300px;
+
+    }
+    .gallery-img-slider{
+        width: 440px;
+        height: 204px;
+    }
+
+    /* .slider-img-product{
+        max-width:100%;
+    } */
+
+    .gallery-customer-img{
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container{
+        outline: 2px solid tomato;
+        width: 1200px;
+        margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .advantages{
+        /* width: 100%; */
+        background-color: #84A178;
+        padding-top: 60px;
+        padding-bottom: 81px;
+    }
+    .text-examp{
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+        color: #FCFCFC;
+        margin-bottom: 32px;
+    }
+
+    .gallery-customer-img{
+        margin-top: 140px;
+    }
+
+
+    .gallery-customer-feedback{
+        background-color: #84A178;
+        color: #FCFCFC;
+        padding: 43px 109px;
+       
+        letter-spacing: 0.04em;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+    }
+    /* .swiper-slide{
+        text-align: center;
+        
+    } */
+
+
+
+
+    
+}
+

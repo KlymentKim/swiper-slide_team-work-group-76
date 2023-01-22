@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body {
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;  
+ }
+ 
+
+.container{
+   max-width: 1200px;
+   margin: 0px auto;
+   /* padding: 0px 16px;  */
+
+ }
+
+ .advantages{
+   width: 100%;
+   background-color: #84A178;
+   padding-top: 60px;
+   padding-bottom: 81px;
+}
+.text-examp{
+   text-align: center;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 170%;
+   color: #FCFCFC;
+   margin-bottom: 32px;
+}
+
+/*************** Пагинация styles *****************/
+.swiper-pagination{
+   bottom: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   column-gap: 18px;
+  
+}
+.swiper-pagination-bullet{
+   width: 12px;
+   height: 12px;
+   background-color: #84A178;
+   
+}
+/***********************************/
+
+@media screen and (max-width:320px),
+(max-width:480px) {
+   .container{
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .swiper {
+      width: 280px;
+      height: 130px;
+     
+   }
+
+   .mySwiper{
+      /* position: absolute; */
+      top:-36px;
+      border-radius: 8px;
+   }
+}
+
+
+@media screen and (min-width:1200px) {
+   .container{      
+      max-width: 100%;
+      margin: 0 auto;
+  }
+
+   .section{
+      /* padding-bottom: 128px; */
+   }
+
+   .swiper {
+      width: 1013px;
+      height: 422px;
+   }
+
+   .mySwiper{
+      /* position: absolute; */
+      top:-86px;
+      /* overflow: hidden; */
+      border-radius: 24px;
+   }
+
+/* Swiper container stylng */
+.swiper-slide {
+   /* position: relative; */
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.swiper-customer-list{
+   position: absolute;
+   top:80%;
+   left: 50%;
+   transform: translate(-50%,80%);
+   overflow: visible;
+}
+
+.swiper-list-customers{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.swiper-item-customer:not(:last-child)
+{
+   margin-bottom: 32px;
+}
+.customer-feedback{
+   background-color: #84A178;
+   border-radius: 24px;
+   padding: 43px 109px;
+   color: #FCFCFC;
+}
+}
+
+/* ******************** 1200px ************************ */
+
+
+
+

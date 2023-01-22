@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Slider_wiper</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+       <!-- normalize css -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+
+       
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <!-- <link rel="stylesheet" href="./css/gallery.css"> -->
+        <link rel="stylesheet" href="./css/slide-style.css">
+
+       
+    
+</head>
+<body>
+
+    <main>
+        <section class="advantages">
+            <div class="container ">
+                <p class="text-examp">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </div>
+        </section>
+
+    <section class="gallery section">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide1 -->
+                  <div class="swiper-slide">
+                    <img src="./images/slide-1x-1.jpg" alt="slide1">
+
+                                    <!-- ul-list -->
+                        <div class="swiper swiper-customer-wrapper">
+                            <ul class="swiper-customers-list">
+                                <li class="swiper-customer-item">
+                                    <img src="./images/desktop/customer-feedback.jpg" alt="customer1" width="85" height="85">
+                                </li>
+                                <li class="swiper-customer-item">
+                                    <p class="customer-feedback">I love visiting your cafe. 
+                                        You prepare the most delicious ice cream in Los Angeles! In addition, 
+                                        you have beautiful serving, cozy atmosphere and polite staff.
+                                    </p>
+                                </li>
+                                <li class="swiper-customer-item"></li>
+                            </ul> 
+                        </div>
+
+                        <!-- <div class="swiper-customer-wrapper">
+                            <ul class="swiper-customer-list">
+                                <li class="swiper-customer-item">
+                                    <img src="./images/desktop/customer-feedback.jpg" 
+                                    alt="customer-1">
+                                </li>
+                            </ul>
+                        </div> -->
+                  </div>   
+
+                    <!-- Slide2 -->
+                    <div class="swiper-slide">
+                        <img src="./images/slide-1x-2.jpg" alt="slide2">
+
+                    </div>
+
+                    <!-- Slide3 -->
+                    <div class="swiper-slide">
+                        <img src="./images/slide-1x-3.jpg" alt="slide3">
+                    </div>
+                </div> 
+                
+            </div>       
+            <div class="swiper-pagination"></div>       
+        </div>
+        
+    </section>
+
+    
+    </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

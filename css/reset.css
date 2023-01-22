@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+ul,ol,li{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+}
+button{
+    cursor: pointer;
+}
+
+.visually-hidden {
+    /* position: absolute;
+    width: 1px;card
+    height: 1px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; */
+
+        visibility: hidden;
+        pointer-events: none;
+        position: absolute;
+}
