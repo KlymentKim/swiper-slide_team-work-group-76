@@ -80,40 +80,46 @@ body {
    }
 
    .swiper {
-      width: 1013px;
-      height: 422px;
+         width: 1013px;
+         display: flex;
+         /* height: 422px; */
    }
 
    .mySwiper{
-      /* position: absolute; */
       top:-86px;
-      /* overflow: hidden; */
       border-radius: 24px;
    }
+.swiper-wrapper{
+   display: flex;
+   min-width: 0;
+}
 
 /* Swiper container stylng */
 .swiper-slide {
-   /* position: relative; */
-   display: flex;
-   justify-content: center;
-   text-align: center;
-}
-
-.swiper-customer-list{
-   position: absolute;
-   top:80%;
-   left: 50%;
-   transform: translate(-50%,80%);
-   overflow: visible;
-}
-
-.swiper-list-customers{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   min-width: 0;
+  
 }
-.swiper-item-customer:not(:last-child)
+.swiper-customer-list{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+   /* position: absolute;
+   top:80%;
+   left: 50%;
+   transform: translate(-50%,80%);
+   overflow: visible; */
+}
+.swiper-customer-item:first-child{
+   margin-top: 140px;
+}
+.swiper-customer-img{
+border-radius: 50%;
+}
+.swiper-customer-item:not(:last-child)
 {
    margin-bottom: 32px;
 }
