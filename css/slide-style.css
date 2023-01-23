@@ -99,12 +99,14 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-items: center;
+   text-align: center;
    min-width: 0;
   
 }
 .swiper-customer-list{
- display: flex;
- justify-content: center;
+ display: block;
+ flex-direction: column ;
  align-items: center;
  text-align: center;
    /* position: absolute;
@@ -118,6 +120,7 @@ body {
 }
 .swiper-customer-img{
 border-radius: 50%;
+margin: 0px auto;
 }
 .swiper-customer-item:not(:last-child)
 {
