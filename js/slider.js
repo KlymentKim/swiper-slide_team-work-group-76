@@ -32,11 +32,11 @@ let swiper = new Swiper(".mySwiper", {
         },
         1200: {
           slidesPerView: 1,
-          spaceBetween: 60,
+           spaceBetween: 30,
         },
         1440: {
           slidesPerView: 1,
-          spaceBetween: 80,
+          spaceBetween: 30,
         },
   },
   
@@ -49,10 +49,10 @@ let swiper = new Swiper(".mySwiper", {
 
   
     // animation speed
-    speed: 1000,
+    speed: 500,
 
    // slide' or 'fade' or 'cube' or 'coverflow' or 'flip'
-    effect:'coverflow',
+    effect:'slide',
 
     
  });
