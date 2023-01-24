@@ -1,17 +1,76 @@
 //  Initialize Swiper
 let swiper = new Swiper(".mySwiper", {
- 
+   // initial slide index
+   initialSlide: 0,
+
+  slidesPerView: 1,
+  // spaceBetween: 10,
   pagination: {
       el: ".swiper-pagination",
       clickable: true
-    },
+  },
+
     keyboard: {
       enable: true,
       onlyInViewpot: true,
       pageUpDown: true
-    }
+  },
+  breakpoints: {
+       320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+        },
+        480: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+          
+        },
+        768: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+          
+        },
+        1200: {
+          slidesPerView: 1,
+          spaceBetween: 60,
+        },
+        1440: {
+          slidesPerView: 1,
+          spaceBetween: 80,
+        },
+  },
+  
+ // target element to listen touch events on.
+  touchEventsTarget: 'container',
+    
+  // auto up<a href="https://www.jqueryscript.net/time-clock/">date</a> 
+  // n window resize
+   updateOnWindowResize:true,
+
+  
+    // animation speed
+    speed: 1000,
+
+   // slide' or 'fade' or 'cube' or 'coverflow' or 'flip'
+    effect:'coverflow',
+
+    
  });
 
+
+// document.addEventListener('DOMContentLoaded', function () { 
+//   (function () {
+//     const swiper = new swiper('.customers-swiper', {
+//       loop: true,
+//       autoHeight: true,
+//       spaceBetween: 20,
+//       pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//       },
+//     });
+//   })();
+// });
 
 // const swiper = new swiper('.swiper', {
 //     // Optional parameters
